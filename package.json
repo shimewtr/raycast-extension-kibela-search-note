@@ -20,8 +20,8 @@
       "type": "textfield",
       "required": true,
       "title": "Kibela sub domain",
-      "description": "Sub domain of youre kibela",
-      "placeholder": "URL of your GitLab instance e.g. https://gitlab.com"
+      "description": "Subdomain of your kibela",
+      "placeholder": "Subdomain of your Kibela"
     },
     {
       "name": "accessToken",
