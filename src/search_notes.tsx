@@ -109,7 +109,7 @@ export default function main() {
               actions={
                 <ActionPanel>
                   <ActionPanel.Section>
-                    <Action.OpenInBrowser url={`${kibelaGql.url}?query=${searchText}`} />
+                    <Action.OpenInBrowser url={`${kibelaGql.url}?query=${encodeURIComponent(searchText)}`} />
                   </ActionPanel.Section>
                 </ActionPanel>
               }
